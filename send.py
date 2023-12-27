@@ -15,10 +15,10 @@ def main():
     connection = pika.BlockingConnection(pika.ConnectionParameters("localhost"))
     channel = connection.channel()
 
-    channel.queue_declare(queue="hello")
+    channel.queue_declare(queue="persons_data")
 
-    channel.basic_publish(exchange="", routing_key="hello", body=get_data_to_send())
-    print(" [x] Sent data to queue 'hello'")
+    channel.basic_publish(exchange="", routing_key="persons_data", body=get_data_to_send())
+    print(" [x] Sent data to queue 'persons_data'")
 
 
 if __name__ == "__main__":
