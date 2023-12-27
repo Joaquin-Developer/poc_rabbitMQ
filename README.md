@@ -12,3 +12,6 @@ chmod 770 scripts/run_rabbitmq.sh
 ./scripts/receive.sh   # First, run this
 ./scripts/send.sh
 ```
+
+#### RabbitMQ Overview:
+[http://localhost:15672/#/](http://localhost:15672/#/)
