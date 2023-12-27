@@ -15,3 +15,12 @@ chmod 770 scripts/run_rabbitmq.sh
 
 #### RabbitMQ Overview:
 [http://localhost:15672/#/](http://localhost:15672/#/)
+
+
+<hr>
+
+#### docs:
+
+- [Introduction to Pika](https://pika.readthedocs.io/en/stable/intro.html)
+- [RabbitMQ with Docker](https://www.rabbitmq.com/download.html)
+- [RabbitMQ tutorials](https://www.rabbitmq.com/getstarted.html)
